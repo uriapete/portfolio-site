@@ -3,8 +3,10 @@ import './styles/TopBar.scss'
 
 export default function TopBar():ReactElement{
     return(
-        <nav className="comp-top-bar">
-            <a href="/">Home</a>
-        </nav>
+        <div className="comp-top-bar">
+            <nav className="top-bar-nav">
+                <a href="/">Home</a>
+            </nav>
+        </div>
     )
 }
